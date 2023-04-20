@@ -1,0 +1,25 @@
+.field {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cell.cross:after {
+    content: "X";
+    font-size: 180px;
+    font-family: sans-serif;
+}
+
+.cell.zero:after {
+    content: "O";
+    font-size: 180px;
+    font-family: sans-serif;
+}
